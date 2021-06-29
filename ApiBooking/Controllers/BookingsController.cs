@@ -17,6 +17,7 @@ namespace ApiBooking.Controllers
     public class BookingsController : ControllerBase
     {
         private readonly BookingContext _context;
+        
 
         public BookingsController(BookingContext context)
         {
